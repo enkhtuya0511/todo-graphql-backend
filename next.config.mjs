@@ -23,6 +23,9 @@ const nextConfig = {
       },
     ];
   },
+  env: {
+    NEXT_PUBLIC_MONGO_DB: process.env.NEXT_PUBLIC_MONGO_DB,
+  },
 };
 
 export default nextConfig;
